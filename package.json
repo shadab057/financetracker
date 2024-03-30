@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "recharts": "^2.12.3",
+    "regression": "^2.0.1"
+  }
+}
