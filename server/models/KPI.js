@@ -72,7 +72,7 @@ const KPISchema = new Schema({
     get: (v) => v / 100,
   },
   expensesByCategory: {
-    type: Map,
+    type: Schema.Types.Mixed,
     of: expenseSchema // Reference to the expenseSchema
   }
 });
